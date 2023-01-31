@@ -56,3 +56,7 @@ elsif transaction["to_user"] == "anthony"
   anthony_balance = anthony_balance + transaction["amount"]
 end
 
+puts "Ben's KelloggCoin balance is #{ben_balance}"
+puts "Brian's KelloggCoin balance is #{brian_balance}"
+puts "Evan's KelloggCoin balance is #{evan_balance}"
+puts "Anthony's KelloggCoin balance is #{anthony_balance}"
